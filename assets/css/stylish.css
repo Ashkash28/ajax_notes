@@ -1,0 +1,60 @@
+body {
+	background-image: url("./../img/desk1.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+div.notes{
+  font-family: arial, sans-serif;
+  overflow:hidden;
+  background:#ffc;
+  display: inline-block;
+  height:200px;
+  width:200px;
+  padding:1em;
+  margin:1em;
+  float:left;
+}
+
+#creation {
+	margin-left: 900px;
+}
+
+#creation input {
+	width: 200px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+#creation textarea {
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+h1 {
+	color: white;
+	-webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+}
+
+h2{
+  padding-bottom:5px;
+  text-align: center;
+}
+
+textarea, .title { 
+	border: none;
+	background-color: #ffc;
+}
+
+textarea {
+	overflow: auto;
+	border-color: transparent;
+	font-family: "Reenie Beanie";
+	font-size: 22px;
+}
+
+.btn-danger {
+	margin-left: 140px;
+}

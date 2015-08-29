@@ -34,7 +34,9 @@
 
  	private function retrieve_partial()
  	{
+ 		// retrieves all notes from the database
  		$array["notes"] = $this->Note->get_notes();
+ 		// loads partial with notes from database passed through
  		$this->load->view('partial_index', $array);
  	}
 
